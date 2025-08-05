@@ -38,7 +38,7 @@ Created on Tue Aug 29 15:25:26 2023
 //                    dropdown.append("<option value='" + JSON.stringify(this.id) +"'>" + this.name + "</option>")
 //                    dropdown.append("<option value=" + JSON.stringify(this.id) +">" + this.name + "</option>")
                 $("<option>")
-                    .val(JSON.stringify(this.id.id))  // or join with '-' if you want a cleaner string
+                    .val(JSON.stringify(this.id))  // or join with '-' if you want a cleaner string
                     .text(this.name)
                     .appendTo(dropdown);
 
